@@ -1,6 +1,0 @@
-jobs:
-  my_first_job:
-    steps:
-      - name: My first step
-        # Uses the default branch of a public repository
-        uses: subosito/flutter-action@v1.5.1
