@@ -95,9 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               width: double.infinity,
               child: Card(
-                color: Colors.amber,
                 child: Chart(_recentTransactions),
-                elevation: 5,
               ),
             ),
             TransactionList(_userTransactions)
